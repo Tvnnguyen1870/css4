@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    
+}
+
+.nav{
+    top: 0;
+    background-color: #333;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+.nav a{
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px;
+    color: #fff;
+}
+
+.nav a:hover {
+    background: #ccc;
+    color: #000;
+}
+.title-page h2 {
+    padding: 20px 0 0;
+}
+
+.content{
+    width: 1024px;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.new-posts{
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.list-category {
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+.hr {
+    width: 80%;
+    border: 1px solid #ccc;
+}
+
+.first-post {
+    width: 100%;
+    float: left;
+}
+
+.first-post > h1 {
+    padding: 20px 0 0;
+}
+
+.first-post > p {
+    text-align: justify;
+    padding: 12px 0;
+}
+
+.first-post img {
+    text-align: center;
+    width: 80%;
+}
+
+.category-name {
+    font: 18px;
+    padding: 12px 20px;
+} 
+
+
+
